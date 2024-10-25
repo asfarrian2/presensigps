@@ -422,7 +422,7 @@
                                     </a>
                                     <a class="dropdown-item  {{ request()->is(['konfigurasi/jamkerjadept']) ? 'active' : '' }}"
                                         href="/konfigurasi/jamkerjadept">
-                                        Jam Kerja Departemen
+                                        Jam Kerja Lokasi
                                     </a>
                                     <a class="dropdown-item  {{ request()->is(['konfigurasi/users']) ? 'active' : '' }}"
                                         href="/konfigurasi/users">
