@@ -134,7 +134,7 @@
                         <td align="center" width="50">{{ $d->jam_out != null ? $d->jam_out : 'Belum Absen' }}</td>
                         <td align="center">
                             @if ($d->jam_out != null)
-                                <img src="{{ url($path_out) }}" alt="" class="foto" height="90">
+                                <img src="{{ url($path_out) }}" alt="" height="90">
                             @else
                                 <img src="{{ asset('assets/img/camera.jpg') }}" alt="" height="90   ">
                             @endif

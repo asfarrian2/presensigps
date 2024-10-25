@@ -13,7 +13,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
     <title>SAKTI UPPD PLH</title>
-    <meta name="description" content="ABSEN PRESENSI GPS SAMKEL PELAIHARI">
+    <meta name="description" content="SAKTI UPPD PLH">
     <meta name="keywords" content="ABSEN PRESENSI GPS SAMKEL PELAIHARI" />
     <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
