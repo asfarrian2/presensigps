@@ -7,7 +7,7 @@
                     <!-- Page pre-title -->
 
                     <h2 class="page-title">
-                        Konfigurasi Jam Kerja Departemen
+                        Konfigurasi Jam Kerja Mobil
                     </h2>
                 </div>
 
@@ -57,8 +57,8 @@
                                             <tr>
                                                 <th>No</th>
                                                 <th>Kode</th>
-                                                <th>Cabang</th>
-                                                <th>Departemen</th>
+                                                <th>Lokasi</th>
+                                                <th>Mobil</th>
                                                 <th>Aksi</th>
                                             </tr>
                                         </thead>

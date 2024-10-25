@@ -7,7 +7,7 @@
                 <!-- Page pre-title -->
 
                 <h2 class="page-title">
-                    Edit Set Jam Kerja Departemen
+                    Edit Set Jam Kerja Mobil
                 </h2>
             </div>
 
@@ -24,7 +24,7 @@
                         <div class="col-6">
                             <div class="form-group">
                                 <select name="kode_cabang" id="kode_cabang" class="form-select" disabled>
-                                    <option value="">Pilih Cabang</option>
+                                    <option value="">Pilih Lokasi</option>
                                     @foreach ($cabang as $d)
                                     <option {{ $jamkerjadept->kode_cabang == $d->kode_cabang ? 'selected' :'' }} value="{{ $d->kode_cabang }}">{{ strtoupper($d->nama_cabang) }}</option>
                                     @endforeach
@@ -34,7 +34,7 @@
                         <div class="col-6">
                             <div class="form-group">
                                 <select name="kode_dept" id="kode_dept" class="form-select" disabled>
-                                    <option value="">Pilih Departemen</option>
+                                    <option value="">Pilih Mobil</option>
                                     @foreach ($departemen as $d)
                                     <option {{ $jamkerjadept->kode_dept == $d->kode_dept ? 'selected' :'' }} value="{{ $d->kode_dept }}">{{ strtoupper($d->nama_dept) }}</option>
                                     @endforeach
