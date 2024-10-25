@@ -136,7 +136,7 @@
                             @if ($d->jam_out != null)
                                 <img src="{{ url($path_out) }}" alt="" height="90">
                             @else
-                                <img src="{{ asset('assets/img/camera.jpg') }}" alt="" height="90   ">
+                                <img src="{{ asset('assets/img/camera.jpg') }}" alt="" height="90">
                             @endif
                         </td>
                         <td style="text-align: center">
