@@ -36,10 +36,10 @@
                 <input type="text" id="tgl_penerimaan" value="{{ $datapenerimaan->tgl_penerimaan }}" autocomplete="off" name="tgl_penerimaan" class="form-control datepicker" placeholder="Tanggal Penerimaan">
             </div>
             <div class="form-group">
-                <input type="text" id="r2" value="{{ $datapenerimaan->r2 }}" autocomplete="off" name="r2" class="form-control" placeholder="Penerimaan Roda 2">
+                <input type="text" id="r2" value="{{ $datapenerimaan->r2 }}" autocomplete="off" name="r2" class="form-control" placeholder="Penerimaan Lokal">
             </div>
             <div class="form-group">
-                <input type="text" id="r4" value="{{ $datapenerimaan->r4 }}" autocomplete="off" name="r4" class="form-control" placeholder="Penerimaan Roda 4">
+                <input type="text" id="r4" value="{{ $datapenerimaan->r4 }}" autocomplete="off" name="r4" class="form-control" placeholder="Penerimaan Online">
             </div>
         <!--<div class="form-group">
                 <input type="text" id="jumlah" name="jumlah" class="form-control" autocomplete="off" placeholder="Jumlah penerimaan" readonly>

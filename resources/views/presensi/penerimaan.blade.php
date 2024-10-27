@@ -125,8 +125,8 @@
                                 </h3>
                                 <small>
                                     Jumlah Notice Keluar {{$d->notice_keluar}} Lembar<br>
-                                    R2: Rp. <?php echo number_format($d->r2),0,',','-'; ?> <br>
-                                    R4: Rp. <?php echo number_format($d->r4),0,',','-'; ?>
+                                    Lokal: Rp. <?php echo number_format($d->r2),0,',','-'; ?> <br>
+                                    Online: Rp. <?php echo number_format($d->r4),0,',','-'; ?>
                 </small>
                                 <p>
                                     <br>

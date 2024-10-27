@@ -33,13 +33,13 @@
         <form method="POST" action="/penerimaan/store" id="frmIzin">
             @csrf
             <div class="form-group">
-                <input type="text" id="tgl_penerimaan" autocomplete="off" name="tgl_penerimaan" class="form-control datepicker" placeholder="Tanggal Penerimaan">
+                <input type="text" id="tgl_penerimaan" autocomplete="off" name="tgl_penerimaan" class="form-control datepicker" value="{{ date('Y-m-d') }}" placeholder="Tanggal Penerimaan">
             </div>
             <div class="form-group">
-                <input type="text" id="r2" autocomplete="off" name="r2" class="form-control" placeholder="Penerimaan Roda 2">
+                <input type="number" id="r2" autocomplete="off" name="r2" class="form-control" placeholder="Penerimaan Lokal">
             </div>
             <div class="form-group">
-                <input type="text" id="r4" autocomplete="off" name="r4" class="form-control" placeholder="Penerimaan Roda 4">
+                <input type="number" id="r4" autocomplete="off" name="r4" class="form-control" placeholder="Penerimaan Online">
             </div>
         <!--<div class="form-group">
                 <input type="text" id="jumlah" name="jumlah" class="form-control" autocomplete="off" placeholder="Jumlah penerimaan" readonly>
@@ -55,6 +55,18 @@
 </div>
 @endsection
 @push('myscript')
+
+<script src="jquery.min.js"></script>
+        <script src="jquery.mask.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                // Format mata uang.
+                $( '.uang' ).mask('000.000.000', {reverse: true});
+
+            })
+        </script>
+
 <script>
     var currYear = (new Date()).getFullYear();
 

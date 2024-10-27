@@ -171,12 +171,11 @@
                                 <span class="badge bg-danger"
                                     style="position: absolute; top:3px; right:10px; font-size:0.6rem; z-index:999">
                                     Rp. <?php echo number_format($rekappenerimaan->jmlr2),0,',','-'; ?>
-
                                 </span>
-                                <ion-icon name="bicycle-outline" style="font-size: 1.6rem;"
+                                <ion-icon name="bar-chart-outline" style="font-size: 1.6rem;"
                                     class="text-success mb-1"></ion-icon>
                                 <br>
-                                <span style="font-size: 0.8rem; font-weight:500">Penerimaan R2</span>
+                                <span style="font-size: 0.8rem; font-weight:500">Penerimaan Lokal</span>
                             </div>
                         </div>
                     </div>
@@ -187,10 +186,10 @@
                                     style="position: absolute; top:3px; right:10px; font-size:0.6rem; z-index:999">
                                     Rp. <?php echo number_format($rekappenerimaan->jmlr4),0,',','-'; ?>
                                 </span>
-                                <ion-icon name="car-outline" style="font-size: 1.6rem;"
+                                <ion-icon name="globe-outline" style="font-size: 1.6rem;"
                                     class="text-warning mb-1"></ion-icon>
                                 <br>
-                                <span style="font-size: 0.8rem; font-weight:500">Penerimaan R4</span>
+                                <span style="font-size: 0.8rem; font-weight:500">Penerimaan Online</span>
                             </div>
                         </div>
                     </div>
