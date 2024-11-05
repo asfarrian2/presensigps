@@ -12,7 +12,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sign in with illustration - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
+    <title>Halaman Admin Sakti</title>
     <!-- CSS files -->
     <link href="{{ asset('tabler/dist/css/tabler.min.css?1674944402') }}" rel="stylesheet" />
     <link href="{{ asset('tabler/dist/css/tabler-flags.min.css?1674944402') }}" rel="stylesheet" />
@@ -44,7 +44,7 @@
                         </div>
                         <div class="card card-md">
                             <div class="card-body">
-                                <h2 class="h2 text-center mb-4">Login to your account</h2>
+                                <h2 class="h2 text-center mb-4">Silahkan Masuk</h2>
                                 @if (Session::get('warning'))
                                 <div class="alert alert-warning">
                                     <p>{{ Session::get('warning') }}</p>
@@ -53,18 +53,15 @@
                                 <form action="/prosesloginadmin" method="post" autocomplete="off" novalidate>
                                     @csrf
                                     <div class="mb-3">
-                                        <label class="form-label">Email address</label>
-                                        <input type="email" name="email" class="form-control" placeholder="your@email.com" autocomplete="off">
+                                        <label class="form-label">Username</label>
+                                        <input type="email" name="email" class="form-control" placeholder="Masukan Username" autocomplete="off">
                                     </div>
                                     <div class="mb-2">
                                         <label class="form-label">
                                             Password
-                                            <span class="form-label-description">
-                                                <a href="./forgot-password.html">I forgot password</a>
-                                            </span>
                                         </label>
                                         <div class="input-group input-group-flat">
-                                            <input type="password" name="password" class="form-control" placeholder="Your password" autocomplete="off">
+                                            <input type="password" name="password" class="form-control" placeholder="Masukan Password" autocomplete="off">
                                             <span class="input-group-text">
                                                 <a href="#" class="link-secondary" title="Show password" data-bs-toggle="tooltip">
                                                     <!-- Download SVG icon from http://tabler-icons.io/i/eye -->
@@ -83,7 +80,7 @@
                                         </label>
                                     </div>
                                     <div class="form-footer">
-                                        <button type="submit" class="btn btn-primary w-100">Sign in</button>
+                                        <button type="submit" class="btn btn-primary w-100">Masuk</button>
                                     </div>
                                 </form>
                             </div>

@@ -9,8 +9,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#004AAD">
     <title>SAKTI</title>
-    <meta name="description" content="Mobilekit HTML Mobile UI Kit">
-    <meta name="keywords" content="bootstrap 4, mobile template, cordova, phonegap, mobile, html" />
+    <meta name="description" content="Aplikasi E-Presensi dan Laporan Penerimaan UPPD/SAMSAT Pelaihari">
+    <meta name="keywords" content="Layanan SAMSAT Keliling" />
     <link rel="icon" type="image/png" href="{{ asset('icon-512.png') }}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icon-512.png') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">

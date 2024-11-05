@@ -103,8 +103,8 @@
                 <th>No.</th>
                 <th>Tanggal</th>
                 <th>Lokasi</th>
-                <th>Roda 2 (Rp)</th>
-                <th>Roda 4 (Rp)</th>
+                <th>Lokal (Rp)</th>
+                <th>Online (Rp)</th>
                 <th>Jumlah (Rp)</th>
                 <th>Notice Keluar</th>
             </tr>

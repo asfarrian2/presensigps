@@ -6,8 +6,7 @@
         </button>
         <h1 class="navbar-brand navbar-brand-autodark">
             <a href=".">
-                <img src="{{ asset('tabler/static/logo-archive.png') }}" width="110" height="32" alt="SAKTI UPPD PLH"
-                    class="navbar-brand-image">
+                SAKTI UPPD PELAIHARI
             </a>
         </h1>
         <div class="navbar-nav flex-row d-lg-none">
